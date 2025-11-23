@@ -13,7 +13,7 @@ function validarPalindromo(palabra) {
         return;
     }
     const palabraReversa = palabraLimpia.split('').reverse().join('');
-    palabraLimpia === palabraReversa ? console.log("Es un palíndromo") : console.log("No es un palíndromo");
+    palabraLimpia === palabraReversa ? console.log("valido") : console.log("invalido");
 }
 validarPalindromo(prompt("Ingresa una palabra: ") || "");
 //# sourceMappingURL=palindromo.js.map

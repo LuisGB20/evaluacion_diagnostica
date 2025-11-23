@@ -94,7 +94,7 @@ function crudUsuarios() {
     3. Editar
     4. Eliminar
     5. Salir`);
-    const operacion = validarNumero('Selecciona que operación deseas realizar [1 - 4]: ');
+    const operacion = validarNumero('Selecciona que operación deseas realizar [1 - 5]: ');
     let idUsuarioSeleccionado;
     switch (operacion) {
         case 1:
